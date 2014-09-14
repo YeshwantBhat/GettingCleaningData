@@ -1,13 +1,13 @@
 GettingCleaningData
 ===================
 
-Assignment for getting and cleaning the data
+### Assignment for getting and cleaning the data
 
 There are 2 files :-
 run_analysis.R which is the R script for the project.
 CodeBook.md which describes the variables, data and work done to transform in cleaning the data.
 
- Description of what run_analysis.R does :-
+### Description of what run_analysis.R does :-
  
  It reads in the training and test data set.
  For the training data set it reads 3 files namely :- 
@@ -70,10 +70,10 @@ CodeBook.md which describes the variables, data and work done to transform in cl
  
  
  
- Assumption :-
+###    Assumption :-
  The input files are assumed to be in the working directory.
  
- Description of the input files :-
+###    Description of the input files :-
  
  X_train.txt - This file contains 561 measurements. It has 7352 rows. 
  y_train.txt - This file contains activities info. It has 7352 rows. Each row corresponds to a particular activity being done.
