@@ -76,13 +76,17 @@ CodeBook.md which describes the variables, data and work done to transform in cl
 ###    Description of the input files :-
  
  X_train.txt - This file contains 561 measurements. It has 7352 rows. 
+ 
  y_train.txt - This file contains activities info. It has 7352 rows. Each row corresponds to a particular activity being done.
+ 
  subject_train.txt - This file contains subject info. It has 7352 rows. Each row corresponds to a particular subject.
  
  It is assumed that the first row in the y_train.txt correspond to the first row in  subject_train.txt and X_train.txt respectively.
  
  X_test.txt - This file contains 561 measurements. It has 2947 rows. 
+ 
  y_test.txt - This file contains activities info. It has 2947 rows. Each row corresponds to a particular activity being done.
+ 
  subject_test.txt - This file contains subject info. It has 2947 rows. Each row corresponds to a particular subject.
  
  It is assumed that the first row in the y_test.txt correspond to the first row in  subject_test.txt and X_test.txt respectively.
