@@ -71,7 +71,11 @@ CodeBook.md which describes the variables, data and work done to transform in cl
  
  
 ###    Assumption :-
- The input files are assumed to be in the working directory.
+ The input files are assumed to be in the working directory and the files unzipped.
+ So if the working directory is A then the files are assumed to be in the following directory
+ 
+ A/UCI HAR Dataset
+ 
  
 ###    Description of the input files :-
  
