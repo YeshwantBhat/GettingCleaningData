@@ -17,6 +17,7 @@ It consists of 4 variables :-
 
 ### Subject Description
 
+<<<<<<< HEAD
 SUBJECT    2
       Group of volunteers within an age bracket of 19-48 years.
       01..30
@@ -27,3 +28,15 @@ The training data has information for 21 volunteers.
      
 
 --
+=======
+SUBJECT    
+2
+
+Group of volunteers within an age bracket of 19-48 years.
+
+01..30
+
+The subject variable has been obtained by combining it from the training and test data.
+The test data has information for  9 volunteers.
+The training data has information for 21 volunteers.
+>>>>>>> FETCH_HEAD
