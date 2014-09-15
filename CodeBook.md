@@ -54,3 +54,15 @@ The activity variable has been transformed from integer numbers (1 to 6) to fact
 activity_labels.txt provided the necessary mapping between the numbers and the labels.
 
 Each subject has performed the activities at different interval of times.
+
+### Mean Description
+
+MEAN
+17   (16 implied decimal places)
+
+Mean of the particular measurement values for a given combination of subject and activity.
+
+Individual  values for a particular measurement have been added for a particular combination of subject,activity
+and then the average calculated.
+
+The average is calculated only for those measurements which have either the mean or the standard deviation computed.
