@@ -19,7 +19,7 @@ It consists of 4 variables :-
 4.mean
 
 
-### Subject Description
+### subject Description
 SUBJECT    
 2
 
@@ -31,7 +31,7 @@ The subject variable has been obtained by combining it from the training and tes
 The test data has information for  9 volunteers.
 The training data has information for 21 volunteers.
 
-### Activity Description
+### activity Description
 ACTIVITY
 1
 
@@ -55,7 +55,11 @@ activity_labels.txt provided the necessary mapping between the numbers and the l
 
 Each subject has performed the activities at different interval of times.
 
-### Mean Description
+### measurement Description
+
+
+
+### mean Description
 
 MEAN
 17   (16 implied decimal places)
