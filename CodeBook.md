@@ -26,3 +26,27 @@ Group of volunteers within an age bracket of 19-48 years.
 The subject variable has been obtained by combining it from the training and test data.
 The test data has information for  9 volunteers.
 The training data has information for 21 volunteers.
+
+### Activity Description
+ACTIVITY
+1
+
+List of activities performed by the subject wearing a smartphone (Samsung Galaxy S II) on the waist.
+
+1 WALKING
+
+2 WALKING_UPSTAIRS
+
+3 WALKING_DOWNSTAIRS
+
+4 SITTING
+
+5 STANDING
+
+6 LAYING
+
+
+The activity variable has been transformed from integer numbers (1 to 6) to factors(labels).
+activity_labels.txt provided the necessary mapping between the numbers and the labels.
+
+Each subject has performed the activities at different interval of times.
