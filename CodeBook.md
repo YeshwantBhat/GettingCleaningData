@@ -141,23 +141,23 @@ std - Standard Deviation
 
 15 tBodyAccJerkmeanZ - Mean value of Body  acceleration jerk  in Z-Axis and time domain.
 
-16 tBodyAccJerkstdX
+16 tBodyAccJerkstdX  - Mean value of std of Body  acceleration jerk  in X-Axis and time domain.
 
-17 tBodyAccJerkstdY
+17 tBodyAccJerkstdY  - Mean value of std of Body  acceleration jerk  in Y-Axis and time domain.
 
-18 tBodyAccJerkstdZ
+18 tBodyAccJerkstdZ  - Mean value of std of Body  acceleration jerk  in Z-Axis and time domain.
 
-19 tBodyGyromeanX
+19 tBodyGyromeanX    - Mean value of Body angular velocity in X-Axis and time domain.
 
-20 tBodyGyromeanY
+20 tBodyGyromeanY    - Mean value of Body angular velocity in Y-Axis and time domain.  
 
-21 tBodyGyromeanZ
+21 tBodyGyromeanZ    - Mean value of Body angular velocity in Z-Axis and time domain.
 
-22 tBodyGyrostdX
+22 tBodyGyrostdX     - Mean value of std of Body angular velocity in X-Axis and time domain.
 
-23 tBodyGyrostdY
+23 tBodyGyrostdY     - Mean value of std of Body angular velocity in Y-Axis and time domain.  
 
-24 tBodyGyrostdZ
+24 tBodyGyrostdZ     - Mean value of std of Body angular velocity in Z-Axis and time domain.
 
 25 tBodyGyroJerkmeanX
 
