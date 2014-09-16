@@ -33,6 +33,7 @@ The training data has information for 21 volunteers.
 
 ### activity Description
 ACTIVITY
+
 1
 
 List of activities performed by the subject wearing a smartphone (Samsung Galaxy S II) on the waist.
@@ -268,4 +269,4 @@ Mean of the particular measurement values for a given combination of subject and
 Individual  values for a particular measurement have been added for a particular combination of subject,activity
 and then the average calculated.
 
-The average is calculated only for those measurements which have either the mean or the standard deviation computed.
+
