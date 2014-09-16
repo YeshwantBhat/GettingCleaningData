@@ -62,6 +62,11 @@ MEASUREMENT
 
 List of measurements extracted and transformed from the set of 561 measurements.
 
+The raw signals were captured using the embedded accelerometer and gyroscope.3-axial linear acceleration and 3-axial angular velocity were captured at a constant rate of 50Hz.
+These signals were then randomly partitioned into 2 data sets - 70 % for the training data set and 30 % for the test data set.
+
+The measurements are normalized in the range [-1,1].
+
 01 tBodyAccmeanX
 
 02 tBodyAccmeanY
