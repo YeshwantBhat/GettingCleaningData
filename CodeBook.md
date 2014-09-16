@@ -129,17 +129,17 @@ std - Standard Deviation
 
 09 tGravityAccmeanZ - Mean value of Gravity acceleration  in Z-Axis and time domain.
 
-10 tGravityAccstdX
+10 tGravityAccstdX  - Mean value of std of Gravity acceleration  in X-Axis and time domain.
 
-11 tGravityAccstdY
+11 tGravityAccstdY  - Mean value of std of Gravity acceleration  in Y-Axis and time domain.
 
-12 tGravityAccstdZ
+12 tGravityAccstdZ -  Mean value of std of Gravity acceleration  in Z-Axis and time domain.
 
-13 tBodyAccJerkmeanX
+13 tBodyAccJerkmeanX - Mean value of Body  acceleration jerk  in X-Axis and time domain.
 
-14 tBodyAccJerkmeanY
+14 tBodyAccJerkmeanY - Mean value of Body  acceleration jerk  in Y-Axis and time domain.
 
-15 tBodyAccJerkmeanZ
+15 tBodyAccJerkmeanZ - Mean value of Body  acceleration jerk  in Z-Axis and time domain.
 
 16 tBodyAccJerkstdX
 
