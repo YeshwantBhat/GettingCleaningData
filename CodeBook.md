@@ -191,29 +191,29 @@ std - Standard Deviation
 
 40 tBodyGyroJerkMagstd  - Mean value of std of Body jerk Euclidean norm in time domain.
 
-41 fBodyAccmeanX
+41 fBodyAccmeanX        - Mean value of Body acceleration in X-Axis and frequency domain.
 
-42 fBodyAccmeanY
+42 fBodyAccmeanY        - Mean value of Body acceleration in Y-Axis and frequency domain.
 
-43 fBodyAccmeanZ
+43 fBodyAccmeanZ        - Mean value of Body acceleration in Z-Axis and frequency domain.
 
-44 fBodyAccstdX
+44 fBodyAccstdX         - Mean value of std of Body acceleration in X-Axis and frequency domain.
 
-45 fBodyAccstdY
+45 fBodyAccstdY         - Mean value of std of Body acceleration in Y-Axis and frequency domain.
 
-46 fBodyAccstdZ
+46 fBodyAccstdZ         - Mean value of Body acceleration in Z-Axis and frequency domain.
 
-47 fBodyAccJerkmeanX
+47 fBodyAccJerkmeanX    - Mean value of Body acceleration  jerk  in X-Axis and frequency domain.
 
-48 fBodyAccJerkmeanY
+48 fBodyAccJerkmeanY    - Mean value of Body acceleration  jerk  in Y-Axis and frequency domain.
 
-49 fBodyAccJerkmeanZ
+49 fBodyAccJerkmeanZ    - Mean value of Body acceleration  jerk  in Z-Axis and frequency domain.
 
-50 fBodyAccJerkstdX
+50 fBodyAccJerkstdX     - Mean value of std of Body acceleration  jerk  in X-Axis and frequency domain.
 
-51 fBodyAccJerkstdY
+51 fBodyAccJerkstdY     - Mean value of std of Body acceleration  jerk  in Y-Axis and frequency domain.
 
-52 fBodyAccJerkstdZ
+52 fBodyAccJerkstdZ     - Mean value of std of Body acceleration  jerk  in Z-Axis and frequency domain.
 
 53 fBodyGyromeanX
 
