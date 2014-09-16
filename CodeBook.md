@@ -215,33 +215,33 @@ std - Standard Deviation
 
 52 fBodyAccJerkstdZ     - Mean value of std of Body acceleration  jerk  in Z-Axis and frequency domain.
 
-53 fBodyGyromeanX
+53 fBodyGyromeanX       - Mean value of Body angular velocity in X-Axis and frequency domain.
 
-54 fBodyGyromeanY
+54 fBodyGyromeanY       - Mean value of Body angular velocity in Y-Axis and frequency domain. 
 
-55 fBodyGyromeanZ
+55 fBodyGyromeanZ       - Mean value of Body angular velocity in Z-Axis and frequency domain.
 
-56 fBodyGyrostdX
+56 fBodyGyrostdX        - Mean value of std of Body angular velocity in X-Axis and frequency domain.
 
-57 fBodyGyrostdY
+57 fBodyGyrostdY        - Mean value of std of Body angular velocity in Y-Axis and frequency domain.
 
-58 fBodyGyrostdZ
+58 fBodyGyrostdZ        - Mean value of std of Body angular velocity in Z-Axis and frequency domain.
 
-59 fBodyAccMagmean
+59 fBodyAccMagmean      - Mean value of Body acceleration Euclidean norm in frequency domain. 
 
-60 fBodyAccMagstd
+60 fBodyAccMagstd       - Mean value of std of Body acceleration Euclidean norm in frequency domain. 
 
-61 fBodyBodyAccJerkMagmean
+61 fBodyBodyAccJerkMagmean - Mean value of Body acceleration jerk Euclidean norm in frequency domain.
 
-62 fBodyBodyAccJerkMagstd
+62 fBodyBodyAccJerkMagstd  - Mean value of std of Body acceleration jerk Euclidean norm in frequency domain.
 
-63 fBodyBodyGyroMagmean
+63 fBodyBodyGyroMagmean    - Mean value of Body angular velocity Euclidean norm in frequency domain.
 
-64 fBodyBodyGyroMagstd
+64 fBodyBodyGyroMagstd     - Mean value of std of Body angular velocity Euclidean norm in frequency domain.
 
-65 fBodyBodyGyroJerkMagmean
+65 fBodyBodyGyroJerkMagmean - Mean value of Body jerk Euclidean norm in frequency domain.
 
-66 fBodyBodyGyroJerkMagstd
+66 fBodyBodyGyroJerkMagstd  - Mean value of std of Body jerk Euclidean norm in frequency domain.
 
 
 
