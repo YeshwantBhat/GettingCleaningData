@@ -109,15 +109,15 @@ Measurements beginning with f represent the mesurements in frequency domain.
 
 All the measurements represent the mean value of a particular measurement for a particular combination of subject,activity.
 
+std - Standard Deviation
 
+01 tBodyAccmeanX  - Mean value of Body acceleration in X-Axis and time domain.
 
-01 tBodyAccmeanX  Mean value of Body acceleration in X-Axis and time domain.
+02 tBodyAccmeanY  - Mean value of Body acceleration in Y-Axis and time domain.
 
-02 tBodyAccmeanY  Mean value of Body acceleration in Y-Axis and time domain.
+03 tBodyAccmeanZ  - Mean value of Body acceleration in Z-Axis and time domain.
 
-03 tBodyAccmeanZ  Mean value of Body acceleration in Z-Axis and time domain.
-
-04 tBodyAccstdX   Mean value of Standard Deviation of Body acceleration in X-Axis and time domain.
+04 tBodyAccstdX   - Mean value of  std of Body acceleration in X-Axis and time domain.
 
 05 tBodyAccstdY
 
