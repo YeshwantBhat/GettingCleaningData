@@ -122,6 +122,48 @@ List of measurements extracted and transformed from the set of 561 measurements.
 
 30 tBodyGyroJerkstdZ
 
+31 tBodyAccMagmean
+
+32 tBodyAccMagstd
+
+33 tGravityAccMagmean
+
+34 tGravityAccMagstd
+
+35 tBodyAccJerkMagmean
+
+36 tBodyAccJerkMagstd
+
+37 tBodyGyroMagmean
+
+38 tBodyGyroMagstd
+
+39 tBodyGyroJerkMagmean
+
+40 tBodyGyroJerkMagstd
+
+41 fBodyAccmeanX
+
+42 fBodyAccmeanY
+
+43 fBodyAccmeanZ
+
+44 fBodyAccstdX
+
+45 fBodyAccstdY
+
+46 fBodyAccstdZ
+
+47 fBodyAccJerkmeanX
+
+48 fBodyAccJerkmeanY
+
+49 fBodyAccJerkmeanZ
+
+50 fBodyAccJerkstdX
+
+
+
 
 
 
