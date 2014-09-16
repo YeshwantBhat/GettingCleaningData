@@ -105,9 +105,15 @@ In the below set of measurements following are appicable :-
 
 Measurements beginning with t represent the measurements in time domain.
 
-Measurements beginning with f represent the mesurements in frequency domain.
+Measurements beginning with f represent the measurements in frequency domain.
 
 All the measurements represent the mean value of a particular measurement for a particular combination of subject,activity.
+
+It is assumed that measurements corresponding to 61-66 in the set below mean the same corresponding to the measurements in the set 35-40 except that they represent the frequency domain whereas the set 35-40 represent the time domain.
+
+For instance measurement corresponding to 61 i.e. fBodyBodyAccJerkMagmean means the same corresponding to the measurement corresponding to 35 tBodyAccJerkMagmean.
+fBodyBodyAccJerkMagmean represents the frequency domain whereas tBodyAccJerkMagmean represents the time domain.
+
 
 std - Standard Deviation
 
