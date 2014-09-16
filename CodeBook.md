@@ -70,7 +70,18 @@ The 128 vector data for instance tAcc-XYZ and tGyro-XYZ were captured at a const
 
 The Jerk signals were then computed from tBodyAcc-XYZ and tGyro-XYZ in time to obtain tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ.
 
-Magnitude of these three-dimensional signals were calculated using the Euclidean norm 
+Magnitude of these three-dimensional signals were calculated using the Euclidean norm thus resulting in 
+
+tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag
+
+Fast Fourier Transform(FFT) was applied on some of the signals in frequency domain to obtain the following 
+
+fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag
+
+From the above set of time, frequency, acceleration,angular,jerk, magnitude signals a 561 vector measurements was computed.
+These 561 measurements were the different calculations done on the above set. The calculations were mean, std and so on ...
+
+So for instance tBodyAcc-mean()-X denotes the mean value for the Body acceleration in X-Axis for a particular subject and a particular activity.
 
 The measurements are normalized in the range [-1,1].
 
