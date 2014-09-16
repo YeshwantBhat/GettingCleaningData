@@ -56,6 +56,33 @@ activity_labels.txt provided the necessary mapping between the numbers and the l
 Each subject has performed the activities at different interval of times.
 
 ### measurement Description
+MEASUREMENT
+
+2
+
+List of measurements extracted and transformed from the set of 561 measurements.
+
+01 tBodyAccmeanX
+
+02 tBodyAccmeanY
+
+03 tBodyAccmeanZ
+
+04 tBodyAccstdX
+
+05 tBodyAccstdY
+
+06 tBodyAccstdZ
+
+07 tGravityAccmeanX
+
+08 tGravityAccmeanY
+
+09 tGravityAccmeanZ
+
+10 tGravityAccstdX
+
+
 
 
 
