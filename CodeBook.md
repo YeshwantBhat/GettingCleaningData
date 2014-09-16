@@ -119,15 +119,15 @@ std - Standard Deviation
 
 04 tBodyAccstdX   - Mean value of  std of Body acceleration in X-Axis and time domain.
 
-05 tBodyAccstdY
+05 tBodyAccstdY   - Mean value of  std of Body acceleration in Y-Axis and time domain.
 
-06 tBodyAccstdZ
+06 tBodyAccstdZ   - Mean value of  std of Body acceleration in Z-Axis and time domain.
 
-07 tGravityAccmeanX
+07 tGravityAccmeanX - Mean value of Gravity acceleration  in X-Axis and time domain.
 
-08 tGravityAccmeanY
+08 tGravityAccmeanY - Mean value of Gravity acceleration  in Y-Axis and time domain.
 
-09 tGravityAccmeanZ
+09 tGravityAccmeanZ - Mean value of Gravity acceleration  in Z-Axis and time domain.
 
 10 tGravityAccstdX
 
