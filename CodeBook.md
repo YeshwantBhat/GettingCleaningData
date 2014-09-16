@@ -63,7 +63,9 @@ MEASUREMENT
 List of measurements extracted and transformed from the set of 561 measurements.
 
 The raw signals were captured using the embedded accelerometer and gyroscope.3-axial linear acceleration and 3-axial angular velocity were captured at a constant rate of 50Hz.
-These signals were then randomly partitioned into 2 data sets - 70 % for the training data set and 30 % for the test data set.
+These signals were then randomly partitioned into 2 data sets  70 % for the training data set and 30 % for the test data set.
+
+The signals were then pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50 % overlap. This resulted in a 128 vector data. The acceleration data was then separted into body acceleration and gravity using a Butterworth low-pass filter
 
 The measurements are normalized in the range [-1,1].
 
