@@ -175,21 +175,21 @@ std - Standard Deviation
 
 32 tBodyAccMagstd     - Mean value of std of Body acceleration Euclidean norm in time domain.
 
-33 tGravityAccMagmean
+33 tGravityAccMagmean - Mean value of Gravity acceleration Euclidean norm in time domain. 
 
-34 tGravityAccMagstd
+34 tGravityAccMagstd  - Mean value of std of Gravity acceleration Euclidean norm in time domain.
 
-35 tBodyAccJerkMagmean
+35 tBodyAccJerkMagmean - Mean value of Body acceleration jerk Euclidean norm in time domain.
 
-36 tBodyAccJerkMagstd
+36 tBodyAccJerkMagstd  - Mean value of std of Body acceleration jerk Euclidean norm in time domain.
 
-37 tBodyGyroMagmean
+37 tBodyGyroMagmean    - Mean value of Body angular velocity Euclidean norm in time domain.
 
-38 tBodyGyroMagstd
+38 tBodyGyroMagstd     - Mean value of std of Body angular velocity Euclidean norm in time domain.
 
-39 tBodyGyroJerkMagmean
+39 tBodyGyroJerkMagmean - Mean value of Body jerk Euclidean norm in time domain.
 
-40 tBodyGyroJerkMagstd
+40 tBodyGyroJerkMagstd  - Mean value of std of Body jerk Euclidean norm in time domain.
 
 41 fBodyAccmeanX
 
