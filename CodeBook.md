@@ -81,6 +81,10 @@ fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fB
 From the above set of time, frequency, acceleration,angular,jerk, magnitude signals a 561 vector measurements was computed.
 These 561 measurements were the different calculations done on the above set. The calculations were mean, std and so on ...
 
+The measurements are normalized in the range [-1,1].
+
+
+
 So for instance tBodyAcc-mean()-X denotes the mean value for the Body acceleration in X-Axis for a particular subject and a particular activity, i.e. subject 1 and for a WALKING Activity.
 
 From these set of 561 measurements only those measurements were taken for which either mean or std (standard deviation) are available. 
@@ -97,9 +101,15 @@ These 7 values are averaged out to get the mean value for the combination of sub
 
 This was repeated for all such measurements (66 in total) for all combinations of subject, activity.
 
+In the below set of measurements following are appicable :-
+
+Measurements beginning with t represent the measurements in time domain.
+
+Measurements beginning with f represent the mesurements in frequency domain.
+
+All the measurements represent the mean value of a particular measurement for a particular combination of subject,activity.
 
 
-The measurements are normalized in the range [-1,1].
 
 01 tBodyAccmeanX
 
