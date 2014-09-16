@@ -135,7 +135,7 @@ std - Standard Deviation
 
 12 tGravityAccstdZ -  Mean value of std of Gravity acceleration  in Z-Axis and time domain.
 
-13 tBodyAccJerkmeanX - Mean value of Body  acceleration jerk  in X-Axis and time domain.
+13 tBodyAccJerkmeanX - Mean value of Body acceleration  jerk  in X-Axis and time domain.
 
 14 tBodyAccJerkmeanY - Mean value of Body  acceleration jerk  in Y-Axis and time domain.
 
@@ -159,21 +159,21 @@ std - Standard Deviation
 
 24 tBodyGyrostdZ     - Mean value of std of Body angular velocity in Z-Axis and time domain.
 
-25 tBodyGyroJerkmeanX
+25 tBodyGyroJerkmeanX - Mean value of Body jerk in X-Axis and time domain.
 
-26 tBodyGyroJerkmeanY
+26 tBodyGyroJerkmeanY - Mean value of Body jerk in Y-Axis and time domain.
 
-27 tBodyGyroJerkmeanZ
+27 tBodyGyroJerkmeanZ - Mean value of Body jerk in Z-Axis and time domain.
 
-28 tBodyGyroJerkstdX
+28 tBodyGyroJerkstdX  - Mean value of std of Body jerk in X-Axis and time domain.
 
-29 tBodyGyroJerkstdY
+29 tBodyGyroJerkstdY  - Mean value of std of Body jerk in Y-Axis and time domain.
 
-30 tBodyGyroJerkstdZ
+30 tBodyGyroJerkstdZ  - Mean value of std of Body jerk in Z-Axis and time domain.
 
-31 tBodyAccMagmean
+31 tBodyAccMagmean    - Mean value of Body acceleration Euclidean norm in time domain.
 
-32 tBodyAccMagstd
+32 tBodyAccMagstd     - Mean value of std of Body acceleration Euclidean norm in time domain.
 
 33 tGravityAccMagmean
 
