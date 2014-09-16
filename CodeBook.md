@@ -111,13 +111,13 @@ All the measurements represent the mean value of a particular measurement for a 
 
 
 
-01 tBodyAccmeanX
+01 tBodyAccmeanX  Body acceleration in X-Axis and time domain.
 
-02 tBodyAccmeanY
+02 tBodyAccmeanY  Body acceleration in Y-Axis and time domain.
 
-03 tBodyAccmeanZ
+03 tBodyAccmeanZ  Body acceleration in Z-Axis and time domain.
 
-04 tBodyAccstdX
+04 tBodyAccstdX   
 
 05 tBodyAccstdY
 
