@@ -8,15 +8,14 @@ CodeBook for the project.
 
 The tidy data is output in the file "output.txt"
 
-It consists of 4 variables :-
+It consists of 68 variables :-
 
 1.subject
 
 2.activity
 
-3.measurement
+3.features described below.
 
-4.mean
 
 
 ### subject Description
@@ -56,10 +55,8 @@ activity_labels.txt provided the necessary mapping between the numbers and the l
 
 Each subject has performed the activities at different interval of times.
 
-### measurement Description
-MEASUREMENT
+### Description about the various features.
 
-2
 
 List of measurements extracted and transformed from the set of 561 measurements.
 
@@ -96,6 +93,13 @@ This resulted in the set of 66 measurements
 
 Finally the average of the measurements for a particular subject, activity combination was computed.
 
+
+Mean of the particular measurement values for a given combination of subject and activity.
+
+Individual  values for a particular measurement have been added for a particular combination of subject,activity
+and then the average calculated.
+
+
 For instance tBodyAcc-mean()-X - There are let us say 7 values for subject 1 and activity WALKING.
 
 These 7 values are averaged out to get the mean value for the combination of subject 1 and activity WALKING.
@@ -118,9 +122,9 @@ fBodyBodyAccJerkMagmean represents the frequency domain whereas tBodyAccJerkMagm
 
 std - Standard Deviation
 
-01 tBodyAccmeanX  - Mean of Body acceleration in X-Axis and time domain.
+tBodyAccmeanX  - Mean of Body acceleration in X-Axis and time domain.
 
-02 tBodyAccmeanY  - Mean of Body acceleration in Y-Axis and time domain.
+tBodyAccmeanY  - Mean of Body acceleration in Y-Axis and time domain.
 
 03 tBodyAccmeanZ  - Mean of Body acceleration in Z-Axis and time domain.
 
@@ -249,24 +253,5 @@ std - Standard Deviation
 65 fBodyBodyGyroJerkMagmean - Mean of Body jerk Euclidean norm in frequency domain.
 
 66 fBodyBodyGyroJerkMagstd  - Mean of std of Body jerk Euclidean norm in frequency domain.
-
-
-
-
-
-
-
-
-
-
-### mean Description
-
-MEAN
-17   (16 implied decimal places)
-
-Mean of the particular measurement values for a given combination of subject and activity.
-
-Individual  values for a particular measurement have been added for a particular combination of subject,activity
-and then the average calculated.
 
 
