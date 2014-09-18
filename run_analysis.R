@@ -1,5 +1,5 @@
 library(dplyr)
-library(tidyr)
+library(plyr)
 # Read the measurement values from X training data set.
 xtrain<-read.table("./UCI HAR Dataset/train/x_train.txt")
 
@@ -82,18 +82,10 @@ activitytable$V1<-as.character(activitytable$V1)
 traintesttable2$activity<-as.numeric(traintesttable2$activity)
 traintesttable2$activity<-factor(traintesttable2$activity,activitytable$V1,activitytable$V2)
 
-# Now make the data frame  tall and narrow. The columns are reduced to 4. i.e.
-# subject, activity,measurement,value
-traintesttable3<-gather(traintesttable2,measurement,value,tBodyAccmeanX:fBodyBodyGyroJerkMagstd)
 
-# Now group the table frame by subject,activity,measurement.
-traintesttable4<-group_by(traintesttable3,subject,activity,measurement)
+# Now group the table frame by subject,activity and calculate the mean of 66 features across the combination of subject,activity.
+traintesttable3<-ddply(traintesttable2,.(subject,activity),numcolwise(mean))
 
-# Now summarize across the subject,activity,measurement to get the mean
-# for a given combination of subject,activity and measurement
-traintesttable5<-summarize(traintesttable4,mean(value))
-
-names(traintesttable5)[4]<-"mean"
 
 # Write the output to a text file.
-write.table(traintesttable5,file="output.txt",row.names=FALSE)
+write.table(traintesttable3,file="output.txt",row.names=FALSE)
