@@ -120,7 +120,10 @@ For instance measurement corresponding to 61 i.e. fBodyBodyAccJerkMagmean means 
 fBodyBodyAccJerkMagmean represents the frequency domain whereas tBodyAccJerkMagmean represents the time domain.
 
 
-std - Standard Deviation
+std - Standard Deviation used in the features description below.
+
+All the mean values are numbers.
+
 
 tBodyAccmeanX  - Mean of Body acceleration in X-Axis and time domain.
 
