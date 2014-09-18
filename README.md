@@ -49,24 +49,24 @@ CodeBook.md which describes the variables, data and work done to transform in cl
  
  The activity labels are then used to label the data frame's activity column so that it now becomes a factor.
  
- Now using gather function the columns corresponding to the 66 different measurements and values are now collapsed into 2 columns namely measurement and value.
+ Now using ddply function on the traintesttable2 it is grouped into subject, activity and the mean(average) calculated .
  
- The resulting data frame traintesttable3 now has 4 columns - subject,activity, measurement and value.
- It has 679734 rows of above 4 columns.
+ The resulting data frame traintesttable3 now has 68 columns - subject,activity and the various features(measurements) mean value.
+ It has 180 rows of 68 columns.
  
- So every row now corresponds to a particular measurement value for a particular subject and particular activity.
+ So every row now corresponds to mean value of all the 66 features for a particular subject and particular activity.
  
  There are multiple measurement values  corresponding to measurements taken for a particular subject,activity at different times.
  
- The data frame is then grouped into subject, activity and measurement.
+ The data frame is then grouped into subject and  activity.
  It is then summarized by the mean of the values across a particular measurement values for a particular combination of subject,activity.
  
  The mean of the measurements is then calculated. So finally we have a mean value for a particular measurement for a particular subject and a particular activity.
  For instance 
- subject activity   measurement        mean
- 1       WALKING    tBodyAccmeanX  0.27733076
+ subject activity   tBodyAccmeanX
+ 1       WALKING      0.27733076
  
- The data frame traintesttable5 is what is then output to a "output.txt" file.
+ The data frame traintesttable3 is what is then output to a "output.txt" file.
  
  
  
