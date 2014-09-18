@@ -64,6 +64,7 @@ CodeBook.md which describes the variables, data and work done to transform in cl
  The mean of the measurements is then calculated. So finally we have a mean value for a particular measurement for a particular subject and a particular activity.
  For instance 
  subject activity   tBodyAccmeanX
+ 
  1       WALKING      0.27733076
  
  The data frame traintesttable3 is what is then output to a "output.txt" file.
