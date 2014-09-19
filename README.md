@@ -68,7 +68,7 @@ CodeBook.md which describes the variables, data and work done to transform in cl
  
  For instance 
  
- subject  activity  tBodyAccmeanX
+ subject  activity  timeBodyAccmeanX
  
  1        WALKING   0.277330758736842
  
