@@ -62,6 +62,10 @@ CodeBook.md which describes the variables, data and work done to transform in cl
  It is then summarized by the mean of the values across a particular measurement values for a particular combination of subject,activity.
  
  The mean of the measurements is then calculated. So finally we have a mean value for a particular measurement for a particular subject and a particular activity.
+ 
+ Then the variable names in traintesttable3 is modified to reflect that these are mean values.
+ 
+ 
  For instance 
  
  subject  activity  tBodyAccmeanX
