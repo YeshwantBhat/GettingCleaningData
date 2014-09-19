@@ -119,6 +119,8 @@ It is assumed that measurements corresponding to 61-66 in the set below mean the
 For instance measurement corresponding to 61 i.e. fBodyBodyAccJerkMagmean means the same corresponding to the measurement corresponding to 35 tBodyAccJerkMagmean.
 fBodyBodyAccJerkMagmean represents the frequency domain whereas tBodyAccJerkMagmean represents the time domain.
 
+The "BodyBody" in the measurements corresponding to 61-66 have been replaced by "Body".
+
 
 std - Standard Deviation used in the features description below.
 
@@ -245,16 +247,16 @@ fBodyAccMagmean      - Mean of Body acceleration Euclidean norm in frequency dom
 
 fBodyAccMagstdmean       - Mean of std of Body acceleration Euclidean norm in frequency domain. 
 
-fBodyBodyAccJerkMagmean - Mean of Body acceleration jerk Euclidean norm in frequency domain.
+fBodyAccJerkMagmean - Mean of Body acceleration jerk Euclidean norm in frequency domain.
 
-fBodyBodyAccJerkMagstdmean  - Mean of std of Body acceleration jerk Euclidean norm in frequency domain.
+fBodyAccJerkMagstdmean  - Mean of std of Body acceleration jerk Euclidean norm in frequency domain.
 
-fBodyBodyGyroMagmean    - Mean of Body angular velocity Euclidean norm in frequency domain.
+fBodyGyroMagmean    - Mean of Body angular velocity Euclidean norm in frequency domain.
 
-fBodyBodyGyroMagstdmean     - Mean of std of Body angular velocity Euclidean norm in frequency domain.
+fBodyGyroMagstdmean     - Mean of std of Body angular velocity Euclidean norm in frequency domain.
 
-fBodyBodyGyroJerkMagmean - Mean of Body jerk Euclidean norm in frequency domain.
+fBodyGyroJerkMagmean - Mean of Body jerk Euclidean norm in frequency domain.
 
-fBodyBodyGyroJerkMagstdmean  - Mean of std of Body jerk Euclidean norm in frequency domain.
+fBodyGyroJerkMagstdmean  - Mean of std of Body jerk Euclidean norm in frequency domain.
 
 
