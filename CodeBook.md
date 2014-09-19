@@ -119,7 +119,7 @@ It is assumed that measurements corresponding to 61-66 in the set below mean the
 For instance measurement corresponding to 61 i.e. fBodyBodyAccJerkMagmean means the same corresponding to the measurement corresponding to 35 tBodyAccJerkMagmean.
 fBodyBodyAccJerkMagmean represents the frequency domain whereas tBodyAccJerkMagmean represents the time domain.
 
-The "BodyBody" in the measurements corresponding to 61-66 have been replaced by "Body".
+The "BodyBody" in the measurements corresponding to 61-66 have been replaced by "Body". Also "t" has been replaced by "time" and "f" replaced by "frequency" to reflect the time and frequency domains respectively.
 
 
 std - Standard Deviation used in the features description below.
@@ -127,136 +127,136 @@ std - Standard Deviation used in the features description below.
 All the mean values are numbers.
 
 
-tBodyAccmeanX  - Mean of Body acceleration in X-Axis and time domain.
+timeBodyAccmeanX  - Mean of Body acceleration in X-Axis and time domain.
 
-tBodyAccmeanY  - Mean of Body acceleration in Y-Axis and time domain.
+timeBodyAccmeanY  - Mean of Body acceleration in Y-Axis and time domain.
 
-tBodyAccmeanZ  - Mean of Body acceleration in Z-Axis and time domain.
+timeBodyAccmeanZ  - Mean of Body acceleration in Z-Axis and time domain.
 
-tBodyAccstdmeanX   - Mean of  std of Body acceleration in X-Axis and time domain.
+timeBodyAccstdmeanX   - Mean of  std of Body acceleration in X-Axis and time domain.
 
-tBodyAccstdmeanY   - Mean of  std of Body acceleration in Y-Axis and time domain.
+timeBodyAccstdmeanY   - Mean of  std of Body acceleration in Y-Axis and time domain.
 
-tBodyAccstdmeanZ   - Mean of  std of Body acceleration in Z-Axis and time domain.
+timeBodyAccstdmeanZ   - Mean of  std of Body acceleration in Z-Axis and time domain.
 
-tGravityAccmeanX - Mean of Gravity acceleration  in X-Axis and time domain.
+timeGravityAccmeanX - Mean of Gravity acceleration  in X-Axis and time domain.
 
-tGravityAccmeanY - Mean of Gravity acceleration  in Y-Axis and time domain.
+timeGravityAccmeanY - Mean of Gravity acceleration  in Y-Axis and time domain.
 
-tGravityAccmeanZ - Mean of Gravity acceleration  in Z-Axis and time domain.
+timeGravityAccmeanZ - Mean of Gravity acceleration  in Z-Axis and time domain.
 
-tGravityAccstdmeanX  - Mean of std of Gravity acceleration  in X-Axis and time domain.
+timeGravityAccstdmeanX  - Mean of std of Gravity acceleration  in X-Axis and time domain.
 
-tGravityAccstdmeanY  - Mean of std of Gravity acceleration  in Y-Axis and time domain.
+timeGravityAccstdmeanY  - Mean of std of Gravity acceleration  in Y-Axis and time domain.
 
-tGravityAccstdmeanZ -  Mean of std of Gravity acceleration  in Z-Axis and time domain.
+timeGravityAccstdmeanZ -  Mean of std of Gravity acceleration  in Z-Axis and time domain.
 
-tBodyAccJerkmeanX - Mean of Body acceleration  jerk  in X-Axis and time domain.
+timeBodyAccJerkmeanX - Mean of Body acceleration  jerk  in X-Axis and time domain.
 
-tBodyAccJerkmeanY - Mean of Body  acceleration jerk  in Y-Axis and time domain.
+timeBodyAccJerkmeanY - Mean of Body  acceleration jerk  in Y-Axis and time domain.
 
-tBodyAccJerkmeanZ - Mean of Body  acceleration jerk  in Z-Axis and time domain.
+timeBodyAccJerkmeanZ - Mean of Body  acceleration jerk  in Z-Axis and time domain.
 
-tBodyAccJerkstdmeanX  - Mean of std of Body  acceleration jerk  in X-Axis and time domain.
+timeBodyAccJerkstdmeanX  - Mean of std of Body  acceleration jerk  in X-Axis and time domain.
 
-tBodyAccJerkstdmeanY  - Mean of std of Body  acceleration jerk  in Y-Axis and time domain.
+timeBodyAccJerkstdmeanY  - Mean of std of Body  acceleration jerk  in Y-Axis and time domain.
 
-tBodyAccJerkstdmeanZ  - Mean of std of Body  acceleration jerk  in Z-Axis and time domain.
+timeBodyAccJerkstdmeanZ  - Mean of std of Body  acceleration jerk  in Z-Axis and time domain.
 
-tBodyGyromeanX    - Mean of Body angular velocity in X-Axis and time domain.
+timeBodyGyromeanX    - Mean of Body angular velocity in X-Axis and time domain.
 
-tBodyGyromeanY    - Mean of Body angular velocity in Y-Axis and time domain.  
+timeBodyGyromeanY    - Mean of Body angular velocity in Y-Axis and time domain.  
 
-tBodyGyromeanZ    - Mean of Body angular velocity in Z-Axis and time domain.
+timeBodyGyromeanZ    - Mean of Body angular velocity in Z-Axis and time domain.
 
-tBodyGyrostdmeanX     - Mean of std of Body angular velocity in X-Axis and time domain.
+timeBodyGyrostdmeanX     - Mean of std of Body angular velocity in X-Axis and time domain.
 
-tBodyGyrostdmeanY     - Mean of std of Body angular velocity in Y-Axis and time domain.  
+timeBodyGyrostdmeanY     - Mean of std of Body angular velocity in Y-Axis and time domain.  
 
-tBodyGyrostdmeanZ     - Mean of std of Body angular velocity in Z-Axis and time domain.
+timeBodyGyrostdmeanZ     - Mean of std of Body angular velocity in Z-Axis and time domain.
 
-tBodyGyroJerkmeanX - Mean of Body jerk in X-Axis and time domain.
+timeBodyGyroJerkmeanX - Mean of Body jerk in X-Axis and time domain.
 
-tBodyGyroJerkmeanY - Mean of Body jerk in Y-Axis and time domain.
+timeBodyGyroJerkmeanY - Mean of Body jerk in Y-Axis and time domain.
 
-tBodyGyroJerkmeanZ - Mean of Body jerk in Z-Axis and time domain.
+timeBodyGyroJerkmeanZ - Mean of Body jerk in Z-Axis and time domain.
 
-tBodyGyroJerkstdmeanX  - Mean of std of Body jerk in X-Axis and time domain.
+timeBodyGyroJerkstdmeanX  - Mean of std of Body jerk in X-Axis and time domain.
 
-tBodyGyroJerkstdmeanY  - Mean of std of Body jerk in Y-Axis and time domain.
+timeBodyGyroJerkstdmeanY  - Mean of std of Body jerk in Y-Axis and time domain.
 
-tBodyGyroJerkstdmeanZ  - Mean of std of Body jerk in Z-Axis and time domain.
+timeBodyGyroJerkstdmeanZ  - Mean of std of Body jerk in Z-Axis and time domain.
 
-tBodyAccMagmean    - Mean of Body acceleration Euclidean norm in time domain.
+timeBodyAccMagmean    - Mean of Body acceleration Euclidean norm in time domain.
 
-tBodyAccMagstdmean     - Mean of std of Body acceleration Euclidean norm in time domain.
+timeBodyAccMagstdmean     - Mean of std of Body acceleration Euclidean norm in time domain.
 
-tGravityAccMagmean - Mean of Gravity acceleration Euclidean norm in time domain. 
+timeGravityAccMagmean - Mean of Gravity acceleration Euclidean norm in time domain. 
 
-tGravityAccMagstdmean  - Mean of std of Gravity acceleration Euclidean norm in time domain.
+timeGravityAccMagstdmean  - Mean of std of Gravity acceleration Euclidean norm in time domain.
 
-tBodyAccJerkMagmean - Mean of Body acceleration jerk Euclidean norm in time domain.
+timeBodyAccJerkMagmean - Mean of Body acceleration jerk Euclidean norm in time domain.
 
-tBodyAccJerkMagstdmean  - Mean of std of Body acceleration jerk Euclidean norm in time domain.
+timeBodyAccJerkMagstdmean  - Mean of std of Body acceleration jerk Euclidean norm in time domain.
 
-tBodyGyroMagmean    - Mean of Body angular velocity Euclidean norm in time domain.
+timeBodyGyroMagmean    - Mean of Body angular velocity Euclidean norm in time domain.
 
-tBodyGyroMagstdmean     - Mean of std of Body angular velocity Euclidean norm in time domain.
+timeBodyGyroMagstdmean     - Mean of std of Body angular velocity Euclidean norm in time domain.
 
-tBodyGyroJerkMagmean - Mean of Body jerk Euclidean norm in time domain.
+timeBodyGyroJerkMagmean - Mean of Body jerk Euclidean norm in time domain.
 
-tBodyGyroJerkMagstdmean  - Mean of std of Body jerk Euclidean norm in time domain.
+timeBodyGyroJerkMagstdmean  - Mean of std of Body jerk Euclidean norm in time domain.
 
-fBodyAccmeanX        - Mean of Body acceleration in X-Axis and frequency domain.
+frequencyBodyAccmeanX        - Mean of Body acceleration in X-Axis and frequency domain.
 
-fBodyAccmeanY        - Mean of Body acceleration in Y-Axis and frequency domain.
+frequencyBodyAccmeanY        - Mean of Body acceleration in Y-Axis and frequency domain.
 
-fBodyAccmeanZ        - Mean of Body acceleration in Z-Axis and frequency domain.
+frequencyBodyAccmeanZ        - Mean of Body acceleration in Z-Axis and frequency domain.
 
-fBodyAccstdmeanX         - Mean of std of Body acceleration in X-Axis and frequency domain.
+frequencyBodyAccstdmeanX         - Mean of std of Body acceleration in X-Axis and frequency domain.
 
-fBodyAccstdmeanY         - Mean of std of Body acceleration in Y-Axis and frequency domain.
+frequencyBodyAccstdmeanY         - Mean of std of Body acceleration in Y-Axis and frequency domain.
 
-fBodyAccstdmeanZ         - Mean of Body acceleration in Z-Axis and frequency domain.
+frequencyBodyAccstdmeanZ         - Mean of Body acceleration in Z-Axis and frequency domain.
 
-fBodyAccJerkmeanX    - Mean of Body acceleration  jerk  in X-Axis and frequency domain.
+frequencyBodyAccJerkmeanX    - Mean of Body acceleration  jerk  in X-Axis and frequency domain.
 
-fBodyAccJerkmeanY    - Mean of Body acceleration  jerk  in Y-Axis and frequency domain.
+frequencyBodyAccJerkmeanY    - Mean of Body acceleration  jerk  in Y-Axis and frequency domain.
 
-fBodyAccJerkmeanZ    - Mean of Body acceleration  jerk  in Z-Axis and frequency domain.
+frequencyBodyAccJerkmeanZ    - Mean of Body acceleration  jerk  in Z-Axis and frequency domain.
 
-fBodyAccJerkstdmeanX     - Mean of std of Body acceleration  jerk  in X-Axis and frequency domain.
+frequencyBodyAccJerkstdmeanX     - Mean of std of Body acceleration  jerk  in X-Axis and frequency domain.
 
-fBodyAccJerkstdmeanY     - Mean of std of Body acceleration  jerk  in Y-Axis and frequency domain.
+frequencyBodyAccJerkstdmeanY     - Mean of std of Body acceleration  jerk  in Y-Axis and frequency domain.
 
-fBodyAccJerkstdmeanZ     - Mean of std of Body acceleration  jerk  in Z-Axis and frequency domain.
+frequencyBodyAccJerkstdmeanZ     - Mean of std of Body acceleration  jerk  in Z-Axis and frequency domain.
 
-fBodyGyromeanX       - Mean of Body angular velocity in X-Axis and frequency domain.
+frequencyBodyGyromeanX       - Mean of Body angular velocity in X-Axis and frequency domain.
 
-fBodyGyromeanY       - Mean of Body angular velocity in Y-Axis and frequency domain. 
+frequencyBodyGyromeanY       - Mean of Body angular velocity in Y-Axis and frequency domain. 
 
-fBodyGyromeanZ       - Mean of Body angular velocity in Z-Axis and frequency domain.
+frequencyBodyGyromeanZ       - Mean of Body angular velocity in Z-Axis and frequency domain.
 
-fBodyGyrostdmeanX        - Mean of std of Body angular velocity in X-Axis and frequency domain.
+frequencyBodyGyrostdmeanX        - Mean of std of Body angular velocity in X-Axis and frequency domain.
 
-fBodyGyrostdmeanY        - Mean of std of Body angular velocity in Y-Axis and frequency domain.
+frequencyBodyGyrostdmeanY        - Mean of std of Body angular velocity in Y-Axis and frequency domain.
 
-fBodyGyrostdmeanZ        - Mean of std of Body angular velocity in Z-Axis and frequency domain.
+frequencyBodyGyrostdmeanZ        - Mean of std of Body angular velocity in Z-Axis and frequency domain.
 
-fBodyAccMagmean      - Mean of Body acceleration Euclidean norm in frequency domain. 
+frequencyBodyAccMagmean      - Mean of Body acceleration Euclidean norm in frequency domain. 
 
-fBodyAccMagstdmean       - Mean of std of Body acceleration Euclidean norm in frequency domain. 
+frequencyBodyAccMagstdmean       - Mean of std of Body acceleration Euclidean norm in frequency domain. 
 
-fBodyAccJerkMagmean - Mean of Body acceleration jerk Euclidean norm in frequency domain.
+frequencyBodyAccJerkMagmean - Mean of Body acceleration jerk Euclidean norm in frequency domain.
 
-fBodyAccJerkMagstdmean  - Mean of std of Body acceleration jerk Euclidean norm in frequency domain.
+frequencyBodyAccJerkMagstdmean  - Mean of std of Body acceleration jerk Euclidean norm in frequency domain.
 
-fBodyGyroMagmean    - Mean of Body angular velocity Euclidean norm in frequency domain.
+frequencyBodyGyroMagmean    - Mean of Body angular velocity Euclidean norm in frequency domain.
 
-fBodyGyroMagstdmean     - Mean of std of Body angular velocity Euclidean norm in frequency domain.
+frequencyBodyGyroMagstdmean     - Mean of std of Body angular velocity Euclidean norm in frequency domain.
 
-fBodyGyroJerkMagmean - Mean of Body jerk Euclidean norm in frequency domain.
+frequencyBodyGyroJerkMagmean - Mean of Body jerk Euclidean norm in frequency domain.
 
-fBodyGyroJerkMagstdmean  - Mean of std of Body jerk Euclidean norm in frequency domain.
+frequencyBodyGyroJerkMagstdmean  - Mean of std of Body jerk Euclidean norm in frequency domain.
 
 
