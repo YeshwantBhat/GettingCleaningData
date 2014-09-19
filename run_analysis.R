@@ -86,6 +86,12 @@ traintesttable2$activity<-factor(traintesttable2$activity,activitytable$V1,activ
 # Now group the table frame by subject,activity and calculate the mean of 66 features across the combination of subject,activity.
 traintesttable3<-ddply(traintesttable2,.(subject,activity),numcolwise(mean))
 
+# Now include mean in the variables names wherever there is std i.e. replace std by stdmean.
+
+variablenames<-names(traintesttable3)
+variablenames<-gsub("std","stdmean",variablenames)
+names(traintesttable3)<-variablenames
+
 
 # Write the output to a text file.
 write.table(traintesttable3,file="output.txt",row.names=FALSE)
