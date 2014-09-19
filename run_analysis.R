@@ -91,9 +91,13 @@ traintesttable3<-ddply(traintesttable2,.(subject,activity),numcolwise(mean))
 
 # Also replace the "BodyBody" with "Body"
 
+# Also replace t by time and f by frequency.
+
 variablenames<-names(traintesttable3)
 variablenames<-gsub("std","stdmean",variablenames)
 variablenames<-gsub("BodyBody","Body",variablenames)
+variablenames<-gsub("^t","time",variablenames)
+variablenames<-gsub("^f","frequency",variablenames)
 names(traintesttable3)<-variablenames
 
 
