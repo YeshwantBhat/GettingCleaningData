@@ -1,5 +1,6 @@
 library(dplyr)
-library(plyr)
+
+
 # Read the measurement values from X training data set.
 xtrain<-read.table("./UCI HAR Dataset/train/x_train.txt")
 
