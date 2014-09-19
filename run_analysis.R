@@ -88,8 +88,11 @@ traintesttable3<-ddply(traintesttable2,.(subject,activity),numcolwise(mean))
 
 # Now include mean in the variables names wherever there is std i.e. replace std by stdmean.
 
+# Also replace the "BodyBody" with "Body"
+
 variablenames<-names(traintesttable3)
 variablenames<-gsub("std","stdmean",variablenames)
+variablenames<-gsub("BodyBody","Body",variablenames)
 names(traintesttable3)<-variablenames
 
 
