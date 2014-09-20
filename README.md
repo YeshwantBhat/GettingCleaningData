@@ -74,6 +74,12 @@ CodeBook.md which describes the variables, data and work done to transform in cl
  
  The data frame traintesttable3 is what is then output to a "output.txt" file.
  
+ This is the tidy data set.
+ 
+ It contains 180 rows, 68 columns.
+ 
+ This tidy data set can be read using read.table and then viewed in R Studio using View command.
+ 
  
  
 ###    Assumption :-
